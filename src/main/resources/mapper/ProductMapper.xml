@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kenny.cloud.seckill.mapper.ProductMapper">
+  <resultMap id="BaseResultMap" type="com.kenny.cloud.seckill.domain.Product">
+    <!--@mbg.generated generated on Tue Mar 24 12:58:45 CST 2020.-->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="product_name" jdbcType="VARCHAR" property="productName" />
+    <result column="stock" jdbcType="BIGINT" property="stock" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Tue Mar 24 12:58:45 CST 2020.-->
+    id, product_name, stock
+  </sql>
+</mapper>
